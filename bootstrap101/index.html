@@ -19,23 +19,23 @@
   <body>
   <div class="container">
     <h1>Bootstrap 101</h1>
-	
-	<h2>Prerequisites</h2>
-	
-	<div class="row">
-		<div class="col-sm-6">
-			<h3>Windows</h3>
-			
-			<a href="https://notepad-plus-plus.org/download/" class="btn btn-success btn-lg">Download Notepad++</a>
-		</div>
-		<div class="col-sm-6">
-			<h3>Mac</h3>
-			
-			<a href="https://itunes.apple.com/us/app/textwrangler/id404010395?mt=12" class="btn btn-success btn-lg">Download TextWrangler</a>
-		</div>
-	</div>
-	
-	<p><a href="bootstrap101.zip" class="btn btn-primary btn-lg">Download sample files</a></p>
+  
+  <h2>Prerequisites</h2>
+  
+  <p><a href="bootstrap101.zip" class="btn btn-primary btn-lg">Download sample files</a></p>
+  
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Windows</h3>
+      
+      <a href="https://notepad-plus-plus.org/download/" class="btn btn-success btn-lg">Download Notepad++</a>
+    </div>
+    <div class="col-sm-6">
+      <h3>Mac</h3>
+      
+      <a href="https://itunes.apple.com/us/app/textwrangler/id404010395?mt=12" class="btn btn-success btn-lg">Download TextWrangler</a>
+    </div>
+  </div>
     
     <h2>Template page</h2>
     
@@ -46,7 +46,7 @@
     &lt;meta charset="utf-8"&gt;
     &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
     &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
-    &lt;title&gt;Bootstrap 101 - Evan Hildreth&lt;/title&gt;
+    &lt;title&gt;Steve Rogers&lt;/title&gt;
 
     &lt;!-- Bootstrap --&gt;
     &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"&gt;
@@ -68,6 +68,192 @@
   &lt;/body&gt;
 &lt;/html&gt;
     </pre>
+    
+    <h2>Header</h2>
+    <pre>
+&lt;div class="container"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-sm-6 col-md-4 col-lg-3"&gt;
+      &lt;img src="steve.jpg" class="img-responsive" alt="Steve Rogers"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-sm-6 col-md-8 col-lg-9"&gt;
+      &lt;h1&gt;Steve Rogers&lt;/h1&gt;
+      &lt;p&gt;Tactical Specialist&lt;/p&gt;
+      &lt;p&gt;Albany, NY&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+    </pre>
+    
+    <h2>Education</h2>
+    <pre>
+&lt;section id="education"&gt;
+    
+  &lt;div class="jumbotron" style="background-image: url('education.jpg');"&gt;
+    &lt;div class="container"&gt;
+      &lt;h2&gt;Education&lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-md-6"&gt;
+        &lt;h3&gt;F. D. Roosevelt High School &lt;small&gt;Class of 1938&lt;/small&gt;&lt;/h3&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Valedictorian&lt;/li&gt;
+          &lt;li&gt;Balanced STEM and Fine Arts&lt;/li&gt;
+          &lt;li&gt;After-hours tutor for 2 years&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="col-md-6"&gt;
+        &lt;h3&gt;Southern New Hampshire University &lt;small&gt;Class of 2011&lt;/small&gt;&lt;/h3&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Online program completed while employed&lt;/li&gt;
+          &lt;li&gt;Rigorous Political Science self-study&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+&lt;/section&gt;
+    </pre>
+    
+    <h2>Professional Work</h2>
+    <pre>
+&lt;section id="professional"&gt;
+
+  &lt;div class="jumbotron" style="background-image: url('professional.jpg');"&gt;
+    &lt;div class="container"&gt;
+      &lt;h2&gt;Professional&lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class="container"&gt;
+      &lt;ul class="nav nav-tabs" role="tablist"&gt;
+        &lt;li role="presentation" class="active"&gt;&lt;a href="#tab-ssr" aria-controls="tab-ssr" role="tab" data-toggle="tab"&gt;SSR&lt;/a&gt;&lt;/li&gt;
+        &lt;li role="presentation"&gt;&lt;a href="#tab-shield" aria-controls="tab-shield" role="tab" data-toggle="tab"&gt;S.H.I.E.L.D.&lt;/a&gt;&lt;/li&gt;
+        &lt;li role="presentation"&gt;&lt;a href="#tab-freelance" aria-controls="tab-freelance" role="tab" data-toggle="tab"&gt;Freelance&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+
+      &lt;div class="tab-content"&gt;
+        &lt;div role="tabpanel" class="tab-pane active" id="tab-ssr"&gt;
+          &lt;h3&gt;SSR&lt;/h3&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Lead participant in Project Rebirth&lt;/li&gt;
+            &lt;li&gt;Performance tour responsible for 50% increase in bond sales&lt;/li&gt;
+            &lt;li&gt;Led ground forces against multiple Hydra bases in Europe&lt;/li&gt;
+            &lt;li&gt;Personally responsible for ending of Hydra Tesseract projects&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div role="tabpanel" class="tab-pane" id="tab-shield"&gt;
+          &lt;h3&gt;S.H.I.E.L.D.&lt;/h3&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Worked with Avengers team in Battle of New York&lt;/li&gt;
+            &lt;li&gt;Disrupted terrorist cells across Europe and Asia&lt;/li&gt;
+            &lt;li&gt;Led fight to expose Hydra operations in the USA&lt;/li&gt;
+            &lt;li&gt;Led team responsible for ending of Hydra Insight project&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div role="tabpanel" class="tab-pane" id="tab-freelance"&gt;
+          &lt;h3&gt;Freelance&lt;/h3&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Worked with Avengers team to disrupt multiple Hydra targets worldwide&lt;/li&gt;
+            &lt;li&gt;Worked to restore USAF Falcon project&lt;/li&gt;
+            &lt;li&gt;Volunteer work with local VFW&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+  
+&lt;/section&gt;
+    </pre>
+    
+    <h2>Contact</h2>
+    <pre>
+&lt;section id="contact"&gt;
+
+  &lt;div class="jumbotron" style="background-image: url('education.jpg');"&gt;
+    &lt;div class="container"&gt;
+      &lt;h2&gt;Contact&lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3"&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-xs-6"&gt;
+            &lt;ul class="nav nav-pills nav-stacked"&gt;
+              &lt;li role="presentation"&gt;&lt;a href="http://facebook.com/captainamerica"&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+              &lt;li role="presentation"&gt;&lt;a href="http://twitter.com/captainamerica"&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+          &lt;div class="col-xs-6"&gt;
+            &lt;ul class="nav nav-pills nav-stacked"&gt;
+              &lt;li role="presentation"&gt;&lt;a href="https://www.youtube.com/playlist?list=PLK5HARgNfgj-cuVJ8e3XrMRFtl-JE0uiQ"&gt;YouTube&lt;/a&gt;&lt;/li&gt;
+              &lt;li role="presentation"&gt;&lt;a href="http://www.tumblr.com/tagged/captain-america"&gt;Tumblr&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+&lt;/section&gt;
+    </pre>
+    
+    <h2>Navbar</h2>
+    <pre>
+&lt;nav class="navbar navbar-inverse navbar-fixed-top"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="navbar-header"&gt;
+      &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#steve-navbar-collapse" aria-expanded="false"&gt;
+        &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;a class="navbar-brand" href="#content"&gt;Steve Rogers&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class="collapse navbar-collapse" id="steve-navbar-collapse"&gt;
+      &lt;ul class="nav navbar-nav navbar-right"&gt;
+        &lt;li&gt;&lt;a href="#education"&gt;Education&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#professional"&gt;Professional&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+    </pre>
+    
+    <h2>Extra Styles</h2>
+    <pre>
+&lt;style type="text/css"&gt;
+  body {
+    padding-top: 100px; /* required for fixed navbar */
+    position: relative; /* required for scrollspy */
+  }
+  
+  .jumbotron {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-size: cover;
+    margin-top: 100px;
+  }
+  
+  .jumbotron h2 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 48px;
+  }
+&lt;/style&gt;
+    </pre>
+    
+    <h2>Finished copy</h2>
+    
+    <a href="steve-rogers.html" class="btn btn-lg btn-primary">View finished page</a>
   </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
