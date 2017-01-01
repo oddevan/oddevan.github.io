@@ -3,12 +3,26 @@ layout: main
 ---
       <div class="row">
         <div class="col-md-8">
-          <div class="alert alert-info">
-            See what I'm working on <strong>now</strong>
-          </div>
+          <a href="/now" id="nowlink" class="btn btn-primary btn-lg btn-block">
+            See what I'm working on <strong>now</strong> <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </a>
 
-          <h2 class="sr-only">Current Projects</h2>
+          <section id="currentProjects" class="socializeLists">
+            <h2 class="sr-only">Current Projects</h2>
 
-          {{content}}
+            {% capture projects_md %}{% include currentprojects.md %}{% endcapture %}
+            {{ projects_md | markdownify }}
+          </section>
+          <section id="otherProjects" class="socializeLists">
+            <h2>Other Projects</h2>
+
+            {% capture other_md %}{% include otherprojects.md %}{% endcapture %}
+            {{ other_md | markdownify }}
+          </section>
+        </div>
+        <div class="col-md-4" id="social">
+          <h2>Find me online</h2>
+          {% capture social_md %}{% include social.md %}{% endcapture %}
+          {{ social_md | markdownify }}
         </div>
       </div>
