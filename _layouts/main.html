@@ -72,7 +72,16 @@
       </div>
     </div>
     <div class="container">
-      {{ content }}
+      <div class="row">
+        <div class="col-md-8">
+          {{ content }}
+        </div>
+        <div class="col-md-4" id="social">
+          <h2>Find me online</h2>
+          {% capture social_md %}{% include social.md %}{% endcapture %}
+          {{ social_md | markdownify }}
+        </div>
+      </div>
     </div>
     <div class="jumbotron jumbotron-fluid" style="height: 200px; background-image: url(/mile24.jpg);">
       &nbsp;
