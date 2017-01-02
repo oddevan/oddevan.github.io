@@ -1,0 +1,19 @@
+---
+layout: main
+---
+          <a href="/now" id="nowlink" class="btn btn-primary btn-lg btn-block">
+            See what I'm working on <strong>now</strong> <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </a>
+
+          <section id="currentProjects" class="socializeLists">
+            <h2 class="sr-only">Current Projects</h2>
+
+            {% capture projects_md %}{% include currentprojects.md %}{% endcapture %}
+            {{ projects_md | markdownify }}
+          </section>
+          <section id="otherProjects" class="socializeLists">
+            <h2>Other Projects</h2>
+
+            {% capture other_md %}{% include otherprojects.md %}{% endcapture %}
+            {{ other_md | markdownify }}
+          </section>
