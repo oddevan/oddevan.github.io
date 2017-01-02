@@ -24,7 +24,6 @@ github_username:  oddevan
 
 # Build settings
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
 exclude:
