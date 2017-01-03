@@ -11,7 +11,7 @@ the universe, and everything. Or just general shenanigans.
 ### Writings ###
 
 Because saying "Evan Hildreth, Author" sounds way to pretentious for what
-I'm doing. We're mostly talking sketches and short stories.
+I'm doing, which (for now) is short stories and even shorter sketches.
 
 - [<i class="fa fa-tumblr" title="My writing blog"></i>](http://plotholefragments.tumblr.com/)
 - [<i class="fa fa-download" title="Download free ebooks on NoiseTrade Books"></i>](http://books.noisetrade.com/oddevan)
