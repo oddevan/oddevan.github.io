@@ -10,7 +10,7 @@ the universe, and everything. Or just general shenanigans.
 
 ### Writings ###
 
-Because saying "Evan Hildreth, Author" sounds way to pretentious for what
+Because saying "Evan Hildreth, Author" sounds way too pretentious for what
 I'm doing, which (for now) is short stories and even shorter sketches.
 
 - [<i class="fa fa-tumblr" title="My writing blog"></i>](http://plotholefragments.tumblr.com/)
