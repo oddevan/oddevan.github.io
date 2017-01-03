@@ -8,6 +8,16 @@ the universe, and everything. Or just general shenanigans.
 
 ---
 
+### Writings ###
+
+Because saying "Evan Hildreth, Author" sounds way to pretentious for what
+I'm doing. We're mostly talking sketches and short stories.
+
+- [<i class="fa fa-tumblr" title="My writing blog"></i>](http://plotholefragments.tumblr.com/)
+- [<i class="fa fa-download" title="Download free ebooks on NoiseTrade Books"></i>](http://books.noisetrade.com/oddevan)
+
+---
+
 ### madcrasher ###
 
 The illigimate lovechild of synthpop and hip-hop.
