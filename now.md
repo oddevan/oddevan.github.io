@@ -6,14 +6,18 @@ layout: now
 
 ## Work ##
 
-- Investigating enterprise-level WordPress
-- Learning about templates for domain-specific Ruby on Rails applications
+- Investigating enterprise-level WordPress. If anyone knows anything about customizable 
+  portals with WordPress (like the My Yahoo and My Netscape of old), hit me up.
+- Legacy software.
 
 ## Not Work ##
 
 - Figuring out if me streaming on twitch can actually be a thing
-- Working on [Chef Justine's story][chef], both actual prose and via
-  the [#WIPjoy tag on Twitter][wipjoy].
+- Working on [Chef Justine's story][chef], taking what I learned via
+  the [#WIPjoy tag on Twitter][wipjoy] and hammering it into prose.
+- Helping with [SC Codes][sccodes], thanks to [Alan][alan].
 
 [chef]: http://plotholefragments.tumblr.com/post/144838233631/100fragmentsmakeonehole-day-35
-[wipjoy]: https://twitter.com/search?f=tweets&vertical=default&q=%23WIPjoy%20%40oddevan&src=typd
+[wipjoy]: https://twitter.com/oddEvan/timelines/816021313965932544
+[sccodes]: https://sccodes.org
+[alan]: https://twitter.com/commondream
