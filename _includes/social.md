@@ -8,3 +8,4 @@
 - [twitch](http://twitch.tv/oddevan)
 - [reddit](https://reddit.com/user/oddevan)
 - [Hacker News](https://news.ycombinator.com/user?id=oddevan)
+- <a href="http://micro.blog/oddevan" rel="me">Micro.blog</a>
