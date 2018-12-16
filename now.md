@@ -13,3 +13,5 @@ layout: now
 - Considering [ideas for a blog platform][essay] that I can eventually move my stuff to.
 - Assessing the state of my professional life in an effort to combat the
   usual "I AM RUNNING OUT OF TIME" that hits this time of year.
+
+[essay]: https://medium.com/@oddevan/what-makes-a-platform-or-how-do-we-recreate-old-blue-a041ada3bed8
