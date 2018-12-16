@@ -1,6 +1,7 @@
 - [Twitter](https://twitter.com/oddevan)
 - [Facebook](https://www.facebook.com/evan.hildreth)
 - [tumblr](http://paperairplanemob.tumblr.com/)
+- [Instagram](http://instagram.com/oddevan)
 - [GitHub](https://github.com/oddevan)
 - [YouTube](https://youtube.com/oddevan)
 - [LinkedIn](http://www.linkedin.com/in/evanhildreth/)
