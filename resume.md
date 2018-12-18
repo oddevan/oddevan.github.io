@@ -1,7 +1,7 @@
 ---
 permalink: /resume
 title: Resume
-layout: main
+layout: resume
 ---
 
 # Resumé #
