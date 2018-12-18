@@ -17,12 +17,16 @@ layout: main
 [fu]: http://www.furman.edu/
 [upe]: http://upe.acm.org/
 
+---
+
 ### [Academic Magnet High School][amhs] class of 2004 ###
 
 * SC diploma and AMHS diploma
 * Highest Honors for senior thesis
 
 [amhs]: http://amhs.ccsdschools.com/
+
+---
 
 ### Self-Study and other training
 
@@ -40,6 +44,8 @@ layout: main
 [bnr]: http://www.bignerdranch.com/book/ios_programming_the_big_nerd_ranch_guide
 [ror30]: http://skillshare.talsafran.com
 [ITIL]: https://en.wikipedia.org/wiki/ITIL
+
+---
 
 ## Work Experience
 
@@ -63,6 +69,8 @@ Programmer Analyst
 [fun]: http://news.furman.edu/
 [twbs]: http://getbootstrap.com/
 
+---
+
 ### Blackbaud: 2008-2013
 
 Charleston, SC / Remote  
@@ -80,6 +88,8 @@ Software Engineer II
 
 [altru]: http://www.blackbaud.com/altru
 
+---
+
 ### WSPA-TV / Media General: 2008
 
 Spartanburg, SC  
@@ -89,6 +99,8 @@ Intern
   reporting, and production
 * Answered and directed calls from viewers
 * Assisted reporters with data entry and investigation
+
+---
 
 ### Furman University Marketing and Public Relations: 2005-2007
 
