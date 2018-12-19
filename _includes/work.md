@@ -53,7 +53,7 @@ Intern
 
 ### Furman University Marketing and Public Relations: 2005-2007
 
-Greenville, SC  .
+Greenville, SC  
 Web Master Assistant
 
 * Part-time position while attending Furman University
