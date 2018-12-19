@@ -2,13 +2,13 @@
 layout: main
 ---
 
-          <section>
+          <section class="ressection" id="education">
             <h2>Education</h2>
 
             {% capture projects_md %}{% include education.md %}{% endcapture %}
             {{ projects_md | markdownify }}
           </section>
-          <section>
+          <section class="ressection" id="workexperience">
             <h2>Work Experience</h2>
 
             {% capture other_md %}{% include work.md %}{% endcapture %}
