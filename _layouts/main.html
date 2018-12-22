@@ -8,7 +8,7 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <script src="https://use.fontawesome.com/2ab9d5afa6.js"></script>
     <style type="text/css">
@@ -20,7 +20,7 @@
         background-size: cover;
     }
 
-    .jumbotron h1 {
+    .jumbotron a.h1 {
         color: white;
         text-shadow: 2px 2px 4px black;
         font-size: 64px;
@@ -68,7 +68,7 @@
   <body>
     <div class="jumbotron jumbotron-fluid" style="height: 400px; background-image: url(/foxmug.jpg);">
       <div class="container">
-        <h1>Evan Hildreth</h1>
+        <a class="h1" href="/">Evan Hildreth</a>
       </div>
     </div>
     <div class="container">
@@ -95,15 +95,9 @@
           <ul class="list-unstyled">
             <li><a href="mailto:me@eph.me">me@eph.me</a></li>
             <li><a href="tel:8438177864">843.817.7864</a></li>
-            <li><a href="https://keybase.io/encrypt#oddevan">Create encrypted message</a></li>
           </ul>
         </div>
       </div>
     </div>
-
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>
 </html>
