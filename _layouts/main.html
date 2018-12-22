@@ -62,9 +62,7 @@
         font-size: 22px;
     }
 
-    #nowlink {
-        text-align: left;
-        color: white;
+    #mainnav {
         margin-bottom: 50px;
     }
     </style>
@@ -81,7 +79,7 @@
           {{ content }}
         </div>
         <div class="col-md-4" id="social">
-          <nav class="nav flex-column">
+          <nav class="nav flex-column" id="mainnav">
             <a class="nav-link{% if page.isproj %} disabled" tabindex="-1" aria-disabled="true{%- endif %}" href="/">Projects</a>
             <a class="nav-link{% if page.isresume %} disabled" tabindex="-1" aria-disabled="true{%- endif %}" href="/resume">Resum&eacute;</a>
             <a class="nav-link{% if page.isnow %} disabled" tabindex="-1" aria-disabled="true{%- endif %}" href="/now">Now</a>
