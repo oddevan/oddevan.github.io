@@ -2,6 +2,7 @@
 permalink: /now
 title: Now 
 layout: now
+isnow: 1
 ---
 
 ## Work ##

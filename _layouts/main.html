@@ -81,6 +81,11 @@
           {{ content }}
         </div>
         <div class="col-md-4" id="social">
+          <nav class="nav flex-column">
+            <a class="nav-link{% if page.isproj %} disabled" tabindex="-1" aria-disabled="true{%- endif %}" href="/">Projects</a>
+            <a class="nav-link{% if page.isresume %} disabled" tabindex="-1" aria-disabled="true{%- endif %}" href="/resume">Resum&eacute;</a>
+            <a class="nav-link{% if page.isnow %} disabled" tabindex="-1" aria-disabled="true{%- endif %}" href="/now">Now</a>
+          </nav>
           <h2>Find me online</h2>
           {% capture social_md %}{% include social.md %}{% endcapture %}
           {{ social_md | markdownify }}
