@@ -6,7 +6,7 @@ Programmer Analyst
 * Responsible for full software lifecycle (design, development, 
   deployment, maintenance) for assigned projects
 * Maintained university [WordPress][wp] deployments
-* Delveloped first iteration of [Furman News][fun] site:
+* Developed first iteration of [Furman News][fun] site:
 	* Recieved desktop design PDFs and graphics from University Communications
 	* Developed responsive HTML template using [Bootstrap][twbs]
 	* Developed custom theme and plugins to enable content strategy
