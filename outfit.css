@@ -1,0 +1,32 @@
+/**
+* @license
+*
+* Font Family: Outfit
+* Designed by: On Brand Investments Pty Ltd, Rodrigo Fuenzalida
+* URL: https://www.fontshare.com/fonts/outfit
+* © 2024 Indian Type Foundry
+*
+* Outfit Light 
+* Outfit SemiBold 
+
+*
+*/
+@font-face {
+  font-family: 'Outfit-Light';
+  src: url('./fonts/Outfit-Light.woff2') format('woff2'),
+       url('./fonts/Outfit-Light.woff') format('woff'),
+       url('./fonts/Outfit-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Outfit-SemiBold';
+  src: url('./fonts/Outfit-SemiBold.woff2') format('woff2'),
+       url('./fonts/Outfit-SemiBold.woff') format('woff'),
+       url('./fonts/Outfit-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
