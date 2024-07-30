@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="reset.css">
+		<style>
+			:root {
+				--accent-color: #369;
+				--on-accent: white;
+			}
+
+			body {
+				margin: 0;
+				display: flex;
+				flex-direction: row;
+				align-items: self-end;
+				gap: 1rem;
+				accent-color: var(--accent-color);
+				font-family: sans-serif;
+			}
+
+			.headshot {
+				display: block;
+				float: inline-start;
+				background-image: url(atdesk.jpg);
+				background-size: cover;
+				background-position: center;
+				min-height: 100vh;
+				height: 100%;
+				width: 33%;
+				min-width: 15rem;
+				max-width: 30rem;
+				box-shadow: .3rem 0 .6rem 0 rgba(0,0,0,0.4);
+			}
+
+			main {
+				width: 67%;
+				max-width: 40rem;
+				padding: 1em;
+			}
+
+			a {
+				color: var(--accent-color);
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+
+			a.blog {
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+					text-decoration-color: var(--on-accent);
+				}
+			}
+
+			.blog h2 {
+				background-color: var(--accent-color);
+				color: var(--on-accent);
+				display: flex;
+				align-items: center;
+				gap: .4em;
+				padding: .4em;
+			}
+
+			svg {
+				width: auto;
+				height: 1.5em;
+			}
+
+			.also {
+				display: flex;
+				align-items: center;
+				gap: .7em;
+			}
+
+			.also h2 {
+				margin-block: 0;
+				font-size: 1rem;
+			}
+
+			@media screen and (min-width: 45rem) {
+				
+			}
+		</style>
+	</head>
+	<body>
+		
+		<aside class="headshot" aria-hidden="true"></aside>
+		
+		<main>
+			<h1>Evan Hildreth</h1>
+
+			<div class="statement">
+				<p>I make computers work for people. Whether it&#39;s making connections or presenting information, it&#39;s all engineering, just with bits and bytes instead of nuts and bolts. Well-built software is like a well-built structure: it&#39;s in the broad strokes and the details. Does it work, does it feel good, does it make sense? Most importantly, does it help people do things better?</p>
+				<p>Binary is my material, code is my tool. My name is Evan, and I build digital tools.</p>
+			</div>
+
+			<aside class="links">
+				<a href="https://oddevan.com/" class="blog"><h2>
+					<svg role="img" aria-label="Odd Evan logo" version="1.1"
+						viewBox="0 0 29.104 29.104" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+						<path transform="scale(.26458)"
+							d="m55 0c-30.376-1.6569e-6 -55 24.624-55 55-1.6569e-6 30.376 24.624 55 55 55s55-24.624 55-55-24.624-55-55-55zm0.11328 20h0.03906c7.6971 0.04153 15.169 2.6192 21.258 7.334 13.563 10.502 17.533 29.275 9.377 44.348-8.1552 15.072-26.035 22.007-42.236 16.381-16.201-5.626-25.955-22.155-23.041-39.047 17.495-0.014058 35.81-0.015625 53.568-0.015625-2.6202-8.3318-10.344-14-19.078-14-5.0568 1.43e-4 -9.9257 1.9158-13.627 5.3613l-10.232-10.994c6.5072-6.0562 15.079-9.4054 23.973-9.3672zm-18.652 42.5c3.056 7.5545 10.39 12.499 18.539 12.5 8.1499 2.12e-4 15.485-4.9448 18.541-12.5z"
+							fill-rule="evenodd" />
+					</svg>
+					Find me at oddEvan.com
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+					</svg>
+					<!-- Icon from Heroicons (c) 2020 Refactoring UI Inc. used under license. https://github.com/tailwindlabs/heroicons/ -->			
+				</h2></a>
+
+				<div class="also">
+					<h2>Also on:</h2>
+					
+					<a href="https://read.cv/oddevan">Read.cv</a>
+					<a href="https://linkedin.com/in/evanhildreth/">LinkedIn</a>
+					<a href="https://github.com/oddevan">GitHub</a>
+				</div>
+			</aside>
+		</main>
+
+	</body>
+</html>
